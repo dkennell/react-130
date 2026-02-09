@@ -1,7 +1,8 @@
 export default function Home() {
 
 	function myFunction<T>(value: T) {
-	  return value	
+		const finalValue = value + 'asdf'
+	  return finalValue
 	}
   return (
 	<>
